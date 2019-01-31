@@ -10,9 +10,10 @@
         <a class="header-logo" href="index.html">
           <img src="img/logo.svg" alt="Логотип Техномарт">
         </a>
-        <a href="#" class="bookmarks-button">Закладки: 0</a>
-        <a href="#" class="cart-button-active">Корзина: 10</a>
-        <a href="#" class="checkout-button-active">Оформить заказ</a>
+        <a href="#" class="search-button"><img src="img/icon-search.svg" class="icon-search" alt="Иконка поиска">Поиск:</a>
+        <a href="#" class="bookmarks-button"><img src="img/icon-bookmark.svg" class="icon-bookmark" alt="Иконка закладки">Закладки:<output> 0 </output></a>
+        <a href="#" class="cart-button"><img src="img/cart-icon.svg" class="cart-icon" alt="Иконка корзины">Корзина:<output> 0 <output></a>
+        <a href="#" class="checkout-button">Оформить заказ</a>
       </div>
         <h1 class="main-h1">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
         <section class="header-contacts">
@@ -22,7 +23,8 @@
           </address>
         </section>
         <nav class="user-nav">
-            <span class="username"><a href="#">Равшан Джамшутович</a></span>
+            <span class="username"><a href="#"><img src="img/icon-user.svg" class="icon-user">Равшан Джамшутович</a></span>
+            <a href="#" class="logout-button"><img src="img/icon-logout.svg" alt="Иконка выхода"></a>
             <span><a href="#">Мои заказы</a></span>
             <span><a href="#">Личный кабинет</a></span>
         </nav>
@@ -42,9 +44,12 @@
     <main>
         <nav class="breadcrumbs">
           <ul>
-            <li><a href="#"><img src="img/home-icon.svg" alt="Иконка домой"></a></li>
+            <li><a href="#"><img src="img/icon-home.svg" alt="Иконка домой"></a></li>
+            <img src="img/icon-right-small.svg" class="icon-right-small">
             <li><a href="#">Каталог</a></li>
+            <img src="img/icon-right-small.svg" class="icon-right-small">
             <li><a href="#">Инструмент</a></li>
+            <img src="img/icon-right-small.svg" class="icon-right-small">
             <li><a href="#">Перфораторы</a></li>
           </ul>
         </nav>
@@ -52,67 +57,67 @@
         <h2>Перфораторы</h2>
         <form class="sort-filters" action="index.html">
           <h3>Производители:</h3>
-          <label class="sort-item"><input type="checkbox" name="Bosch" value="Bosch" checked="checked"> Bosch</label>
-          <label class="sort-item"><input type="checkbox" name="Interscol" value="Interscol"> Интерскол</label>
-          <label class="sort-item"><input type="checkbox" name="Makita" value="Makita" checked="checked"> Makita</label>
-          <label class="sort-item"><input type="checkbox" name="Dewalt" value="Dewalt"> Dewalt</label>
-          <label class="sort-item"><input type="checkbox" name="Hitachi" value="Hitachi"> Hitachi</label>
+          <label class="sort-item-checkbox"><input type="checkbox" name="Bosch" value="Bosch" checked="checked"> Bosch</label>
+          <label class="sort-item-checkbox"><input type="checkbox" name="Interscol" value="Interscol"> Интерскол</label>
+          <label class="sort-item-checkbox"><input type="checkbox" name="Makita" value="Makita" checked="checked"> Makita</label>
+          <label class="sort-item-checkbox"><input type="checkbox" name="Dewalt" value="Dewalt"> Dewalt</label>
+          <label class="sort-item-checkbox"><input type="checkbox" name="Hitachi" value="Hitachi"> Hitachi</label>
           <h3>Питание:</h3>
-          <label class="sort-item"><input type="radio" name="battery" value="battery" checked="checked">Аккумуляторные</label>
-          <label class="sort-item"><input type="radio" name="outlet" value="outlet">Сетевые</label>
+          <label class="sort-item-radio"><input type="radio" name="battery" value="battery" checked="checked">Аккумуляторные</label>
+          <label class="sort-item-radio"><input type="radio" name="outlet" value="outlet">Сетевые</label>
           <input type="submit" value="Показать">
         </form>
 
         <section class="product-list">
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/products/bosch-bfg-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <span class="old-price">22500 р.</span>
             <span class="button-price"><a href="#">15500 р.</a></span>
           </div>
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/products/bosch-bfg-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <span class="old-price">30500 р.</span>
             <span class="button-price"><a href="#">25500 р.</a></span>
           </div>
-          <div class="product-card">
+          <div class="product-card product-new">
             <span class="button-buy"><a href="#">Купить</a></span>
             <span class="button-buy"><a href="#">В закладки</a></span>
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <span class="button-price"><a href="#">12500 р.</a></span>
           </div>
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/products/bosch-bfg-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <span class="old-price">22500 р.</span>
             <span class="button-new-price"><a href="#">15500 р.</a></span>
           </div>
-          <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 6000">
+          <div class="product-card product-new">
+            <img src="img/products/bosch-bfg-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <span class="old-price">30500 р.</span>
             <span class="button-new-price"><a href="#">25500 р.</a></span>
           </div>
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 2000">
+            <img src="img/products/bosch-bfg-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <span class="button-new-price"><a href="#">12500 р.</a></span>
           </div>
-          <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 3000">
+          <div class="product-card product-new">
+            <img src="img/products/bosch-bfg-3000.jpg" alt="Перфоратор BOSCH BFG 3000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <span class="old-price">22500 р.</span>
             <span class="button-new-price"><a href="#">15500 р.</a></span>
           </div>
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 6000">
+            <img src="img/products/bosch-bfg-6000.jpg" alt="Перфоратор BOSCH BFG 6000">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <span class="old-price">30500 р.</span>
             <span class="button-new-price"><a href="#">25500 р.</a></span>
           </div>
           <div class="product-card">
-            <img src="img/product1.png" alt="Перфоратор BOSCH BFG 3000">
+            <img src="img/products/bosch-bfg-2000.jpg" alt="Перфоратор BOSCH BFG 2000">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <span class="old-price">22500 р.</span>
             <span class="button-new-price"><a href="#">15500 р.</a></span>
@@ -146,13 +151,13 @@
         </p>
         <div class="social-buttons">
           <a class="vk-button" href="#">
-            <img src="img/vk.svg" alt="Техномарт Вконтакте">
+            <img src="img/vk-icon.svg" alt="Техномарт Вконтакте">
           </a>
           <a class="fb-button" href="#">
-            <img src="img/fb.svg" alt="Техномарт Facebook">
+            <img src="img/fb-icon.svg" alt="Техномарт Facebook">
           </a>
           <a class="ig-button" href="#">
-            <img src="img/ig.svg" alt="Техномарт Instagram">
+            <img src="img/insta-icon.svg" alt="Техномарт Instagram">
           </a>
         </div>
         <p class="feedback">
