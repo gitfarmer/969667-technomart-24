@@ -46,6 +46,110 @@ a {
   height: 42px;
   background-color: #293449;
 }
+
+/*Незнаю нужно ли делать фон для элемента в неактивном состояни*/
+
+.search-top {
+  width: 270px;
+  height: 42px;
+  color: #ffffff;
+}
+
+.search-top:hover {
+  width: 150px;
+  height: 42px;
+  background-color: #212a3a;
+  color: #ffffff;
+}
+
+.search-top:focus {
+  width: 270px;
+  height: 42px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.checkout-button {
+  width: 150px;
+  height: 42px;
+  background-color: #63a63e;
+  color: #ffffff;
+}
+
+.checkout-button:hover {
+  background-color: #5fbb2d;
+}
+
+.checkout-button:active {
+  width: 150px;
+  height: 42px;
+  background-color: #518534;
+}
+
+
+.bookmarks-button:hover {
+  width: 150px;
+  height: 42px;
+  background-color: #212a3a;
+}
+
+.bookmarks-button:active {
+  width: 150px;
+  height: 42px;
+  background-color: #161d29;
+}
+
+.cart-button:hover {
+  width: 150px;
+  height: 42px;
+  background-color: #212a3a;
+}
+
+.cart-button:active {
+  width: 150px;
+  height: 42px;
+  background-color: #161d29;
+}
+
+a.login-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a.login-button:hover {
+  color: #ee3643;
+}
+
+a.login-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+a.reg-button {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a.reg-button:hover {
+  color: #ee3643;
+}
+
+a.reg-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.username {
+  width: 1280px;
+  height: 4880px;
+  background-color: #ffffff;
+}
+
+.username-link:active {
+  width: 1280px;
+  height: 4880px;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .header-contacts,
 .user-nav a {
   font-size: 21px;
@@ -73,6 +177,20 @@ a {
   height: 60px;
   box-shadow: inset 0px -5px 0 0 #293449;
   background-color: #32425c;
+}
+
+.main-nav-item:hover {
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+}
+
+.main-nav-item:active {
+  width: 127px;
+  height: 60px;
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .main-nav-link {
@@ -172,12 +290,25 @@ a {
 
 
 .hover-buy {
+  width: 135px;
+  height: 38px;
+  box-shadow: inset 0px -3px 0 0 #367315;
+  background-color: #63a63e;
   color: #ffffff;
+}
+
+.hover-buy:hover {
+  background-color: #5fbb2d;
+}
+
+.hover-buy:active {
+  background-color: #518534;
 }
 
 .hover-bookmark {
   color: #32425c;
 }
+
 .hover-bookmark:active {
   color: rgba(50, 66, 92, 0.3);
 }
@@ -351,6 +482,16 @@ p.developers {
   color: #32425c;
   text-decoration: underline;
 }
+
+.user-link a:hover {
+  color: #ee3643;
+}
+
+.user-link a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+
 
 .breadcrumbs-list-item-link {
   font-family: 'PT Sans', Arial, sans-serif;
