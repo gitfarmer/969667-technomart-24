@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: normal;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+.main-header,
+.header {
+  font-family: 'Cuprum', Arial, sans-serif;
+  text-align: left;
+  font-weight: normal;
+
+  width: 1200px;
+  height: 320px;
+  background-color: #f4f7f9;
+
+}
+
+.main-nav-item,
+.product-item,
+.manufacturers-item,
+.footer-nav-list-top-item,
+.footer-nav-list-bottom-item,
+.breadcrumbs-list-item {
+  list-style: none;
+}
+
+.header-menu {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: left;
+
+  width: 1200px;
+  height: 42px;
+  background-color: #293449;
+}
+.header-contacts,
+.user-nav a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+.header-address {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  color: #32425c;
+}
+.main-h1 {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+.header-tel {
+  color: #ee3643;
+}
+.main-nav {
+  width: 940px;
+  height: 60px;
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
+}
+
+.main-nav-link {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.features {
+  font-family: 'Cuprum', Arial, sans-serif;
+  color: #000000;
+}
+
+.feature-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: left;
+
+}
+.feature-link {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.section-header {
+  font-family: 'Cuprum', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+
+  width: 940px;
+  height: 89px;
+  background-color: #f9f5f0;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  color: #32425c;
+}
+.section-link {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.section-header-inner {
+  width: 940px;
+  height: 89px;
+  background-color: #f2f6f8;
+}
+
+.product-list {
+  font-family: 'PTSans', Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.product-title {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+.old-price {
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+.button-price {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.hover-links a{
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.hover-buy {
+  color: #ffffff;
+}
+
+.hover-bookmark {
+  color: #32425c;
+}
+.hover-bookmark:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.services {
+  width: 1200px;
+  height: 522px;
+  background-color: #f4f7f9;
+
+  font-family: 'Cuprum', Arial, sans-serif;
+  color: #000000;
+  text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.services-title {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.services-desc {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.services-button {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.services-button-active {
+  color: #32425c;
+}
+
+.services-slide-header {
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+
+.services-slide-desc {
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.section-about {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.contacts-header,
+.about-header {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.contacts-desc,
+.about-desc {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.delivery-list-item {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.basic-button {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.modal {
+  display: none;
+}
+
+.footer-nav {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.footer-nav-list-top-link {
+  color: #f3f7f9;
+}
+
+.footer-nav-list-bottom-link {
+  color: #ffd180;
+}
+
+.footer-sup {
+  width: 1200px;
+  height: 300px;
+  background-color: #32425c;
+
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.footer-address {
+  color: #f3f7f9;
+}
+
+.footer-sub {
+  width: 1200px;
+  height: 107px;
+  background-color: #293449;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+p.feedback {
+  color: #ffffff;
+}
+.feedback a {
+  color: #ffd180;
+}
+
+p.developers {
+  color: #ffffff;
+}
+
+.developers a {
+  color: #ffd180
+}
+
+.user-link a {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.breadcrumbs-list-item-link {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  list-style: none;
+  color: #000000;
+}
+
+.sort-filters {
+  font-family: 'PT sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+
+}
+
+.sort-title {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.filter-submit {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
