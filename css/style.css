@@ -695,6 +695,39 @@ color: #000000;
   cursor: pointer;
 }
 
+.slider-list-view {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  top: 220px;
+  left: 295px;
+  width: 30px;
+  height: 10px;
+}
+
+.slider-list-view label {
+  position: relative;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.slider-list-view .slide-active::after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 2px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: #ee3643;
+  border-radius: 50%;
+}
+
 .section-header-inner,
 .section-header {
   font-family: 'Cuprum', 'Arial', sans-serif;
