@@ -372,8 +372,8 @@ a {
 .user-nav-inner:nth-child(3)::after {
   content: "";
   position: absolute;
-  left: 100px;
-  bottom: 10px;
+  left: 107px;
+  bottom: 9px;
   width: 4px;
   height: 4px;
   background-color: #32425c;
@@ -409,7 +409,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .user-nav-inner a {
@@ -1599,8 +1599,12 @@ a {
   padding-top: 8px;
 }
 
+.user-link {
+  padding-left: 16px;
+}
+
 .user-link:last-child {
-  padding-right: 54px;
+  padding-left: 34px;
 }
 
 .user-link a:hover {
