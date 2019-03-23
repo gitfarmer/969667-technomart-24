@@ -78,6 +78,7 @@ a {
 
 .header-menu-background {
   background-color: #293449;
+  margin-bottom: 47px;
 }
 
 .header-menu-background:hover {
@@ -93,7 +94,7 @@ a {
   height: 42px;
   background-color: #ee3643;
   box-shadow: 0px 5px 0px 0px rgba(179,41,49);
-  padding-top: 15px;
+  padding-top: 13px;
   padding-left: 55px;
 }
 
@@ -228,9 +229,9 @@ a {
 .info-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-bottom: 40px;
-  padding-top: 49px;
+  /* padding-top: 48px; */
 }
 
 .main-h1 {
@@ -253,6 +254,7 @@ a {
   padding-left: 72px;
   margin: 0;
   position: relative;
+  margin-bottom: 2px;
 }
 
 .header-tel a {
@@ -261,7 +263,7 @@ a {
 
 .tel svg {
   position: absolute;
-  top: 6px;
+  top: 9px;
   left: 12px;
 }
 
@@ -283,7 +285,7 @@ a {
   vertical-align: middle;
   padding-left: 46px;
   position: relative;
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 .login-button:hover {
@@ -330,7 +332,7 @@ a {
 .username-link {
   background-color: #ffffff;
   position: relative;
-  padding: 8px;
+  padding: 10px;
   width: 100%;
   text-align: left;
   padding-left: 47px;
@@ -371,7 +373,7 @@ a {
   content: " ";
   position: absolute;
   left: 36%;
-  bottom: 15%;
+  bottom: 13%;
   width: 4px;
   height: 4px;
   background-color: #32425c;
@@ -382,11 +384,12 @@ a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
-  padding-left: 20px;
+  padding-left: 67px;
 }
 
 .user-nav {
   display: flex;
+  padding-left: 70px;
 }
 
 .user-nav a {
@@ -399,6 +402,7 @@ a {
   text-align: center;
   width: 299px;
   margin: 0;
+  margin-left: 53px;
   padding: 0;
   list-style: none;
   position: relative;
@@ -540,6 +544,7 @@ a {
   background-image: url(../img/technics.svg);
   background-repeat: no-repeat;
   background-position: 86% 54%;
+  margin-right: 0;
 }
 
 .feature-discount {
@@ -700,8 +705,7 @@ a {
   text-align: left;
   font-weight: 400;
   color: #32425c;
-  padding-left: 28px;
-  margin-top: 16px;
+  margin-left: 27px;
 }
 
 .section-link {
@@ -718,7 +722,7 @@ a {
   width: 940px;
   height: 89px;
   background-color: #f2f6f8;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .product-list {
@@ -745,9 +749,14 @@ a {
 .product-item-inner {
   list-style: none;
   width: 220px;
+  min-height: 318px;
   border: solid 1px #eaeaea;
   position: relative;
   margin-bottom: 20px;
+}
+
+.product-item-inner .button-price {
+  margin-top: 11px;
 }
 
 .product-item-inner .hover-links,
@@ -787,19 +796,19 @@ a {
   font-weight: bold;
   color: #000000;
   margin: 0;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   padding: 0px 15px;
 }
 
 .old-price {
-  min-height:12px;
+  min-height:18px;
   font-size: 17px;
   line-height: 18px;
   text-decoration: line-through;
+  text-transform: uppercase;
   color: #a9a9a9;
   padding-left: 5px;
   margin: 0;
-  margin-bottom: 10px;
 }
 
  .button-price {
@@ -817,10 +826,9 @@ a {
   padding: 9px 35px;
   display: block;
   box-sizing: border-box;
-  margin-top: 6px;
+  margin-top: 5px;
   margin-bottom: 20px;
-  margin-left: 43px;
-  margin-right: 43px;
+  margin-left: 41px;
 }
 
 .hover-links {
@@ -922,7 +930,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 218px;
-  min-height: 145px;
+  height: 145px;
   border: 1px solid #eaeaea;
   margin-bottom: 20px;
 }
@@ -938,9 +946,15 @@ a {
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
+.manufacturers-item-link img {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
 .services-slider {
   display: flex;
   justify-content: flex-start;
+  position: relative;
 }
 
 .services {
@@ -962,6 +976,7 @@ a {
   text-transform: uppercase;
   font-weight: 400;
   padding-top: 64px;
+  margin-bottom: 26px;
 }
 
 .services-desc {
@@ -976,13 +991,27 @@ a {
   display: flex;
   flex-direction: column;
   margin-right: 40px;
+  margin-bottom: 0;
   padding: 0;
-  padding-top: 46px;
+  padding-top: 44px;
+}
+
+.services-left-col::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/services-shadow.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 273px;
+  width: 10px;
+  top: 0;
+  left: 231px;
 }
 
 .services-right-col {
   width: 400px;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .button-wrapper {
@@ -1052,7 +1081,7 @@ a {
   text-transform: uppercase;
   font-weight: 400;
   color: #32425c;
-  padding-top: 8px;
+  padding-top: 5px;
   margin-bottom: 25px;
 }
 
@@ -1108,7 +1137,7 @@ a {
 
 .about-wrapper {
   display: flex;
-  margin-bottom: 85px;
+  margin-bottom: 86px;
 }
 
 .contacts-header,
@@ -1349,11 +1378,11 @@ a {
   background-color: #ee3643;
   box-shadow: 0px 5px 0px 0px rgba(179,41,49);
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .footer-logo-img {
-  margin-top: 23px;
+  margin-top: 21px;
   margin-left: 40px;
 }
 
@@ -1376,7 +1405,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-left: 67px;
-  padding-top: 22px;
+  padding-top: 19px;
 }
 
 .footer-nav-list-top-link {
@@ -1458,7 +1487,7 @@ a {
   color: #ffffff;
   width: 227px;
   padding-top: 20px;
-  margin-right: 74px;
+  margin-right: 77px;
 }
 
 .social-buttons {
@@ -1522,7 +1551,7 @@ a {
 .feedback {
   color: #ffffff;
   width: 135px;
-  padding-left: 33px;
+  padding-left: 34px;
   padding-top: 21px;
 }
 
@@ -1567,11 +1596,11 @@ a {
   text-align: left;
   color: #32425c;
   text-decoration: underline;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .user-link:last-child {
-  padding-right: 56px;
+  padding-right: 54px;
 }
 
 .user-link a:hover {
@@ -1589,7 +1618,7 @@ a {
 }
 
 .breadcrumbs {
-  margin: 20px 0;
+  margin: 18px 0;
   padding: 0;
   list-style: none;
   display: flex;
@@ -1598,6 +1627,7 @@ a {
 .breadcrumbs-list-item {
   margin-right: 35px;
   text-transform: uppercase;
+  position: relative;
 }
 
 .breadcrumbs-list-item:nth-child(2) {
@@ -1608,6 +1638,18 @@ a {
   margin-right: 25px;
 }
 
+.breadcrumbs-list-item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  left: -22px;
+  top: 6px;
+  background-image: url(../img/icon-right-small.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
 .breadcrumbs-list-item-link {
   padding-right: 20px;
   font-family: 'PT Sans', 'Arial', sans-serif;
@@ -1616,9 +1658,6 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
-  background-image: url(../img/icon-right-small.svg);
-  background-repeat: no-repeat;
-  background-position: right center;
 }
 
 .breadcrumbs .home-page {
@@ -1637,8 +1676,8 @@ a {
   position: relative;
   width: 220px;
   height: 80px;
-  margin-bottom: 10px;
-  padding-top: 39px;
+  margin-bottom: 12px;
+  padding-top: 41px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #f7f3ec;
@@ -1654,7 +1693,7 @@ a {
 
 .range-bar {
 	position: absolute;
-	top: 39px;
+	top: 41px;
 	left: 21px;
 	width: 152px;
 	height: 2px;
@@ -1681,6 +1720,16 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+}
+
+.price-controls::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  background-color: #000000;
+  top: 19px;
+  left: 106px;
 }
 
 .price-controls input {
@@ -1812,7 +1861,7 @@ a {
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
   padding-top: 10px;
 }
 
@@ -1854,6 +1903,7 @@ a {
   padding: 10px;
   padding-left: 20px;
   font: inherit;
+  width: 120px;
 }
 
 .sort-position-list {
@@ -1861,7 +1911,7 @@ a {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 360px;
+  width: 453px;
   padding-top: 11px;
 }
 
@@ -1879,9 +1929,14 @@ a {
   border-bottom: 1px dotted #ee3643;
 }
 
-.sort-position-item:nth-child(2) {
+.sort-position-item:first-child {
   padding-left: 42px;
 }
+
+.sort-position-item:nth-child(3) {
+  padding-right: 10px;
+}
+
 
 a.current {
   color: #ee3643;
@@ -1914,6 +1969,7 @@ a.current {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 700px;
 }
 
 .product-card {
