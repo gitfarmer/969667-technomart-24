@@ -1423,9 +1423,20 @@ a {
 
 .modal-cart-cancel-button {
   width: 220px;
+  min-height: 38px;
   margin-left: 20px;
   background-color: #ffffff;
   color: #000000;
+}
+
+.modal-cart-cancel-button:hover {
+  background-color: #ffffff;
+  color: inherit;
+}
+
+.modal-cart-cancel-button:active {
+  background-color: #ffffff;
+  color: inherit;
 }
 
 .modal-cart-wrapper {
@@ -1960,7 +1971,17 @@ a {
 
 .power-filter-item input,
 .brand-filter-item input {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .brand-filter-item label {
@@ -1977,6 +1998,13 @@ a {
   background-repeat: no-repeat;
   background-position: 0 center;
   cursor: pointer;
+}
+
+.power-filter-item input:focus + label,
+.brand-filter-item input:focus + label {
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: #e9e9e9;
 }
 
 .brand-filter-item input:checked + label {

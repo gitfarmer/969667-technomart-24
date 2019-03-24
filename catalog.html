@@ -5,7 +5,7 @@
   <title>Техномарт | Каталог</title>
   <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
   <header class="inner-header">
@@ -165,8 +165,8 @@
                             <img class="filter-button-right" src="img/filter-button.svg" width="20" height="22" alt="Кнопка до">
                           </div>
                           <div class="price-controls">
-                              <input class="min-price" name="min-price" type="text" value="0" disabled>
-                              <input class="max-price" name="max-price" type="text" value="30000" disabled>
+                              <input class="min-price" name="min-price" type="text" value="0">
+                              <input class="max-price" name="max-price" type="text" value="30000">
                           </div>
                           <hr class="sort-hr">
                     </div>
@@ -177,7 +177,7 @@
                     </legend>
                     <ul class="brand-filter-list">
                       <li class="brand-filter-item">
-                        <input type="checkbox" id="bosch" name="bosch" value="bosch" tabindex="0" checked>
+                        <input class="visually-hidden" type="checkbox" id="bosch" name="bosch" value="bosch" tabindex="0" checked>
                         <label for="bosch">
                           Bosch
                         </label>
