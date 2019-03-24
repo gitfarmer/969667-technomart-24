@@ -471,56 +471,12 @@
                 Вы можете забрать товар сами,
                 заехав в наш офис:
               </p>
-                  <a href="#modal-map"><img class="map" src="img/map-small.jpg" width="300" height="158" alt="Адрес: Санкт-Петербург, ул. Большая Конюшенная 19/8"></a>
-                  <a href="#modal-writeus" class="button contact-button">
+                  <a href="img/map.jpg"><img class="map" src="img/map-small.jpg" width="300" height="158" alt="Адрес: Санкт-Петербург, ул. Большая Конюшенная 19/8"></a>
+                  <a href="writeus.html" class="button contact-button">
                     Заблудились? Напишите нам!
                   </a>
                 </section>
               </div>
-              <div class="modal-wrapper">
-                <section id="modal-map" class="modal modal-map">
-                  <h2 class="visually-hidden">
-                    Карта
-                  </h2>
-                  <button class="modal-close" type="button">
-                    Закрыть
-                  </button>
-                  <img src="img/map.jpg" width="300" height="158" alt="Адрес: Санкт-Петербург, ул. Большая Конюшенная 19/8">
-                </section>
-              </div>
-              <section id="modal-writeus" class="modal modal-writeus">
-                <h2 class="visually-hidden">
-                  Форма обратной связи
-                </h2>
-                <form class="form-writeus" action="http://echo.htmlacademy.ru" method="post">
-                  <p class="field">
-                    <label for="name">
-                      Ваше имя:
-                    </label>
-                    <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
-                  </p>
-                  <p class="field">
-                    <label for="e-mail">
-                      Ваш e-mail:
-                    </label>
-                    <input id="e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
-                  </p>
-                  <p class="field-textarea">
-                    <label for="mail-body">
-                      Текст письма:
-                    </label>
-                    <textarea id="mail-body" name="mail-body" rows="10" cols="30" placeholder="В свободеной форме"></textarea>
-                  </p>
-                  <button class="modal-close" type="button">
-                    Закрыть
-                  </button>
-                </form>
-                <div class="button-wrapper">
-                  <button class="button submit-button" type="submit">
-                    Отправить
-                  </button>
-                </div>
-              </section>
             </main>
             <footer class="footer">
               <div class="footer-sup">
@@ -595,9 +551,9 @@
                       Все права защищены
                     </p>
                     <ul class="social-buttons">
-                      <li><a class="vk-button" href="#"></a></li>
-                      <li><a class="fb-button" href="#"></a></li>
-                      <li><a class="ig-button" href="#"></a></li>
+                      <li><a class="vk-button" href="#">Техномарт во Вконтакте</a></li>
+                      <li><a class="fb-button" href="#">Техномарт на Фейсбуке</a></li>
+                      <li><a class="ig-button" href="#">Техномарт в Инстаграме</a></li>
                     </ul>
                     <p class="feedback">
                       Обратная связь:
@@ -615,5 +571,47 @@
                 </div>
               </div>
             </footer>
+            <section id="modal-map" class="modal modal-map">
+              <h2 class="visually-hidden">
+                Карта
+              </h2>
+              <button class="modal-close" type="button">
+                Закрыть
+              </button>
+              <img src="img/map.jpg" width="940" height="466" alt="Адрес: Санкт-Петербург, ул. Большая Конюшенная 19/8">
+            </section>
+            <section id="modal-writeus" class="modal modal-writeus">
+              <h2 class="visually-hidden">
+              Форма обратной связи
+              </h2>
+              <form class="form-writeus" action="http://echo.htmlacademy.ru" method="post">
+                <p class="field">
+                  <label for="name">
+                    Ваше имя:
+                  </label>
+                  <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
+                </p>
+                <p class="field">
+                  <label for="e-mail">
+                    Ваш e-mail:
+                  </label>
+                  <input id="e-mail" type="text" name="e-mail" value="" placeholder="email@example.com">
+                </p>
+                <p class="field-textarea">
+                  <label for="mail-body">
+                    Текст письма:
+                  </label>
+                  <textarea id="mail-body" name="mail-body" rows="10" cols="30" placeholder="В свободеной форме"></textarea>
+                </p>
+                <button class="modal-close" type="button">
+                  Закрыть
+                </button>
+              </form>
+              <div class="button-wrapper">
+                <button class="button submit-button" type="submit">
+                  Отправить
+                </button>
+              </div>
+            </section>
 </body>
 </html>

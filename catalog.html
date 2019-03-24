@@ -177,19 +177,19 @@
                     </legend>
                     <ul class="brand-filter-list">
                       <li class="brand-filter-item">
-                        <input type="checkbox" id="bosch" name="Bosch" value="Bosch" checked>
+                        <input type="checkbox" id="bosch" name="bosch" value="bosch" tabindex="0" checked>
                         <label for="bosch">
                           Bosch
                         </label>
                       </li>
                       <li class="brand-filter-item">
-                        <input type="checkbox" id="interskol" name="Interscol" value="Interscol">
+                        <input type="checkbox" id="interskol" name="interscol" tabindex="0" value="interscol">
                         <label for="interskol">
                           Интерскол
                         </label>
                       </li>
                       <li class="brand-filter-item">
-                        <input type="checkbox" id="makita" name="Makita" value="Makita" checked>
+                        <input type="checkbox" id="makita" name="makita" value="makita" tabindex="0" checked>
                         <label for="makita">
                           Makita
                         </label>
@@ -256,17 +256,11 @@
                   <ul class="sort-direction-list">
                     <li class="sort-direction-asce current">
                       <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                            <path fill="#ee3643" d="M5.5 0L0 10h11z"/>
-                        </svg>
                         По возрастанию
                       </a>
                     </li>
                     <li class="sort-direction-desc">
                       <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                          <path fill="#c5c5c5" d="M5.5 10L0 0h11"/>
-                        </svg>
                         По убыванию
                       </a>
                     </li>
@@ -524,27 +518,6 @@
                 </div>
               </div>
             </div>
-            <section class="modal modal-cart">
-              <button class="modal-close" type="button">
-                Закрыть
-              </button>
-              <div class="modal-cart-title">
-                <img src="img/form-1.svg" width="66" height="66" alt="Галочка">
-                <p>
-                  Товар добавлен в корзину!
-                </p>
-              </div>
-              <div class="modal-cart-wrapper">
-                <div class="modal-cart-buttons">
-                  <a href="#" class="button modal-cart-checkout-button">
-                    Оформить заказ
-                  </a>
-                  <button class="button modal-cart-cancel-button" type="button">
-                    Продолжить покупки
-                  </button>
-                </div>
-              </div>
-            </section>
             <section class="about-inner">
               <div class="container">
                 <h2 class="about-inner-title">
@@ -630,9 +603,9 @@
                       Все права защищены
                     </p>
                     <ul class="social-buttons">
-                      <li><a class="vk-button" href="#"></a></li>
-                      <li><a class="fb-button" href="#"></a></li>
-                      <li><a class="ig-button" href="#"></a></li>
+                      <li><a class="vk-button" href="#">Техномарт во Вконтакте</a></li>
+                      <li><a class="fb-button" href="#">Техномарт на Фейсбуке</a></li>
+                      <li><a class="ig-button" href="#">Техномарт в Инстаграме</a></li>
                     </ul>
                     <p class="feedback">
                       Обратная связь:
@@ -650,5 +623,24 @@
                 </div>
               </div>
             </footer>
+            <section class="modal modal-cart">
+              <button class="modal-close" type="button">
+                Закрыть
+              </button>
+              <div class="modal-cart-title">
+                <img src="img/form-1.svg" width="66" height="66" alt="Галочка">
+                <p>
+                  Товар добавлен в корзину!
+                </p>
+              </div>
+                <div class="modal-cart-wrapper  modal-cart-buttons">
+                  <a href="#" class="button modal-cart-checkout-button">
+                    Оформить заказ
+                  </a>
+                  <button class="button modal-cart-cancel-button" type="button">
+                    Продолжить покупки
+                  </button>
+                </div>
+            </section>
 </body>
 </html>
