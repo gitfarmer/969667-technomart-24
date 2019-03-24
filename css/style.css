@@ -1547,6 +1547,7 @@ a {
   line-height: 24px;
   letter-spacing: normal;
   text-align: left;
+  width: 620px;
 }
 
 .footer-sup-left {
@@ -1901,12 +1902,12 @@ a {
   position: relative;
   margin: 0;
   padding: 0;
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-between; */
   margin-bottom: 25px;
 }
 
@@ -1930,6 +1931,10 @@ a {
   color: #283136;
   border: none;
   background: #f7f3ec;
+}
+
+.max-price {
+  margin-left: 26px;
 }
 
 .price-filter,
